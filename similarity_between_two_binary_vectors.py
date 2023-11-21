@@ -18,7 +18,6 @@ def jaccard_coef(x, y):
     similarity = intersection_size / union_size if union_size != 0 else 0
     return similarity
 
-# Example usage
 x = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 y = [0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
 
